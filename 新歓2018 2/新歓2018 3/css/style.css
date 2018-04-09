@@ -1,0 +1,114 @@
+#site-box{ width:888px;
+           border:none;
+           margin:auto;
+           background-color:white;
+}
+
+#top-box{ height:124px;
+          background-color:white;
+}
+
+#humberger {
+  display: inline-block;
+  height: 24px;
+  width: 36px;
+  vertical-align: middle;
+  background-color: #fff;
+  padding: 6px 0;
+  border: 2px solid #444;
+  border-radius: 4px;
+	
+}
+#humberger div {
+  display: inline-block;
+  height: 4px;
+  width: 24px;
+  background-color:#444;
+  margin: 2px 6px;
+  border-radius: 2px;
+}
+
+
+
+#menu-box{
+           height:33px;
+           background-color:gray;
+}
+ul{ 
+    list-style:none;
+    text-align:center;
+    margin:0px;
+    padding:0px;
+}
+
+li{ 
+    width:177.6px;
+    float:left;
+
+}
+
+li a{ 
+      display:block;
+      width:100%;
+      background-color:white;
+      text-decoration:none;
+      color:black;
+      line-height:200%;
+      font-family:"Meiryo UI";
+}
+
+li a:hover{
+      background-color:black;
+      color:white;
+}
+
+#a-box{
+        height:auto;
+        background-color:white;
+        
+}
+
+
+ 
+#twitter-box{
+             text-align:center;
+             margin-top:350px;
+}
+
+#line-box{
+          text-align:center;
+          margin-top:50px;
+}
+
+#b-box{ width:888px;
+            /*clear:both; */
+        background-color:white;
+        font-size:17px;
+        text-align:center;
+        padding:10opx;
+}
+
+
+#slideshow{ position: relative;
+            right:110px;
+}
+
+#slideshow img{ position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 8;
+                opacity: 1.0;
+}
+
+#slideshow img.active{ z-index: 10;
+                       opacity: 1.0;
+}
+
+#slideshow img.last-active{ z-index: 9;
+}
+
+#icon
+{
+margin-top: -30px;
+}
+

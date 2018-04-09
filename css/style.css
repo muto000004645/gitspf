@@ -1,0 +1,218 @@
+
+
+@media only screen and ( min-width : 376px ){
+    #menu li {
+    width: 20%;
+    border-bottom: 1px solid #61380B;
+  }
+
+	
+	#menu li a{
+  display: block;
+  padding: 12px 10px;
+	margin: -1px;
+  background: #F5A9F2;
+  color: #61380B;
+  text-align: center;
+  text-decoration: none;
+	position: relative;
+	z-index: 1000;
+}
+	#toggle a{
+		display: none;
+	}
+	
+	#b-box{ width:auto;
+		margin: auto;
+            /*clear:both; */
+        background-color:white;
+        font-size:14px;
+        text-align:center;
+        padding:10px;
+}
+}
+
+@media only screen and (max-width: 375px) {
+	
+	#site-box{ width:375px;
+           border:none;
+           margin:auto;
+           background-color:white;
+}
+
+#top-box{ height:124px;
+          background-color:white;
+}
+
+#menu{
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#menu li{
+  display: block;
+  float: left;
+  width: 20.0%;
+  margin: 0;
+  padding: 0; }
+
+#menu li a{
+  display: block;
+  padding: 12px 10px;
+	margin: -1px;
+  background: #F5A9F2;
+  color: #61380B;
+  text-align: center;
+  text-decoration: none;
+	position: relative;
+	z-index: 1000;
+}
+
+#menu li a:hover{
+  background: #F6CEF5;
+}
+
+#toggle{
+ display: none;
+}
+  #menu{
+    display: none;
+  }
+
+  #menu li{
+    width: 100%;
+  }
+
+  #toggle{
+    display: block;
+    position: relative;
+    width: 100%;
+    background: #F5A9F2;
+  }
+	
+  #toggle a{
+    display: block;
+    position: relative;
+    padding: 12px 0 10px;
+    border-bottom: 1px solid #F5A9F2;
+    color: #61380B;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #toggle:before{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    background: #61380B;
+  }
+
+  #toggle a:before, #toggle a:after{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 20px;
+    height: 4px;
+    background: #F5A9F2;
+  }
+
+  #toggle a:before{
+    margin-top: -6px;
+  }
+
+  #toggle a:after{
+    margin-top: 2px;
+  }
+}
+
+
+
+#menu-box{
+           height:33px;
+           background-color:gray;
+}
+ul{ 
+    list-style:none;
+    text-align:center;
+    margin:0px;
+    padding:0px;
+}
+
+li{ 
+    width:177.6px;
+    float:left;
+
+}
+
+li a{ 
+      display:block;
+      width:100%;
+      background-color:white;
+      text-decoration:none;
+      color:black;
+      line-height:200%;
+      font-family:"Meiryo UI";
+}
+
+li a:hover{
+      background-color:black;
+      color:white;
+}
+
+#a-box{
+        height:auto;
+        background-color:white;
+        
+}
+
+
+ 
+#twitter-box img{
+	width: 375px;
+             text-align:center;
+             margin-top:350px;
+}
+
+#line-box{
+          text-align:center;
+          margin-top:50px;
+}
+
+#b-box{ width:375px;
+            /*clear:both; */
+        background-color:white;
+        font-size:14px;
+        text-align:center;
+        padding:10px;
+}
+
+
+#slideshow{ position: relative;
+            right:110px;
+}
+
+#slideshow img{ position: absolute;
+                top: 0;
+                left: 26px;
+                z-index: 8;
+                opacity: 1.0;
+	width: 440px;
+}
+
+#slideshow img.active{ z-index: 10;
+                       opacity: 1.0;
+}
+
+#slideshow img.last-active{ z-index: 9;
+}
+
+

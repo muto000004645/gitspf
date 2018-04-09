@@ -1,0 +1,58 @@
+.table {
+	margin-top: 25px;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.somutitle {
+	font-weight: bolder;
+	background-color: #F4C7C7;
+	border-left: 8px solid #FD0404;
+	margin-left: 15px;
+	color: #1E1E1E;
+	margin: 2em 0;
+	font-size: 30px;
+	padding: 0px 10px;
+	margin-top:0px;
+}
+.hitokoto {
+	margin-top: -50px;
+	margin-left: 10px;
+}
+.han {
+	line-height: 30px;
+	margin-left: 10px;
+}
+.pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 150px;
+	;
+}
+
+
+.syokai {
+	margin-left: 10px;
+}
+.donna {
+	margin-left: 10px;
+}
+
+#picture1{
+	margin-left: -500px;
+}
+
+#picture2{
+	margin-top: -150px;	
+	}
+
+#picture3{
+	margin-top: -150px;
+	margin-left: 500px
+		}
+
+
+#a-box{
+	margin-bottom: -230px
+}
